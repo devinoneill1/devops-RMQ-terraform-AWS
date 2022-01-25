@@ -11,6 +11,6 @@ resource "aws_instance" "rmq" {
 
     tags = {
         Name = var.name
-        group = var.group
+        Group = var.group
     }
 }
